@@ -14,7 +14,7 @@ s            =  size, proceeded by a integer (defaults to 512x512 if not set - c
 k            =  Makes GIF show a play-button (if "no" isn't set)
 no           =  Stops GIF from moving (needs "rj")
 rj           =  makes image JPG (when not set, image gets changed to the original filetype)
-c            =  Allows image to be larger than 797x797 pixels
+c            =  makes width 2 pixels under for some reason (sometimes also allows image to be larger than 797x797 pixels)
 c0xffffffff  =  Unknown
 mo           =  Unknown
 
