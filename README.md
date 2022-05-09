@@ -31,7 +31,7 @@ g - Shows the XML used to render the profile picture (_TileInfo_) - also ignores
 
 fcrop64 - Doesn't do anything on profile pictures, but setting it to 2 shows an alert-sign (_from banner-parameters_)
 
-d - Autodownloads image (_Credit to Codesiderations_)
+d - Autodownloads image (_Credit to [Codesiderations](http://www.codesiderations.com/2017/02/09/blogger-amp-proxy.html)_)
 
 p - Makes the image bigger than the size, and crops it
 
