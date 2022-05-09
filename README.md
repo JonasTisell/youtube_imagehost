@@ -21,7 +21,7 @@ no - Stops GIF from moving (_needs "rj"_)
 
 rj - makes image JPG (_when not set, image gets changed to the original filetype_)
 
-c - makes width 2 pixels smaller for some reason (_sometimes also allows image to be larger than 797x797 pixels_)
+c - makes image same width and height, also makes width 2 pixels smaller sometimes, for some reason (_sometimes also allows image to be larger than 797x797 pixels_)
 c0xffffffff - Unknown
 mo - Unknown
 
