@@ -9,7 +9,7 @@ Needs to have a slash in the end or all parameters will be ignored
 
 Trying unexisting parameters makes the image 404
 
-Highest quality saved on server is 797x797
+Highest quality saved on server is 797x797 (for images from YouTube)
 
 ## Default parameters (_set in all profile images and various others_)
 
