@@ -3,7 +3,7 @@
 
 ## Rules
 
-If image is bigger than 8192px*8192px, the image shows error code 400 (_Bad Request_) 
+If GIF is bigger than 8192px*8192px, the image shows error code 400 (_Bad Request_) 
 
 Trying unexisting parameters makes the image show error code 400 (_Bad Request_)
 
