@@ -5,6 +5,8 @@
 
 If GIF is bigger than 8192px*8192px, the image shows error code 400 (_Bad Request_) 
 
+If image is bigger than 12247px*12247px, the image shows error code 400 (_Bad Request_) 
+
 Trying unexisting parameters makes the image show error code 400 (_Bad Request_)
 
 Highest quality saved on server is 797x797 (_for images from YouTube_)
