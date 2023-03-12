@@ -22,7 +22,9 @@ no - Stops GIF from moving (_needs "rj"_)
 rj - makes image JPG (_when not set, image gets changed to the original filetype_)
 
 c - makes image same width and height, also makes width 2 pixels smaller sometimes, for some reason (_sometimes also allows image to be larger than 797x797 pixels_)
+
 c0xffffffff - Unknown
+
 mo - Unknown
 
 ## Other parameters
@@ -33,7 +35,7 @@ fcrop64 - Doesn't do anything on profile pictures, but setting it to 2 shows an 
 
 d - Autodownloads image (_Credit to [Codesiderations](http://www.codesiderations.com/2017/02/09/blogger-amp-proxy.html)_)
 
-p - Makes the image bigger than the size, and crops it
+p - Does almost the same thing as c, but different positioning
 
 a / mm - Shows the old default profile-picture (blue square with a star inside) - Always shows if parameter starts with mm (can have anything behind)
 
