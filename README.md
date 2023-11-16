@@ -1,5 +1,6 @@
 # YouTube Image Host URL Parameter Documentation
 ###### These are also usable in Picasa, Blogger and Google+ image links, as they all use the Google Image Host
+###### Mostly accurate as of March 2023
 
 ## Rules
 
@@ -9,7 +10,7 @@ If image is bigger than 12247px*12247px, the image shows error code 400 (_Bad Re
 
 Trying unexisting parameters makes the image show error code 400 (_Bad Request_)
 
-Highest quality saved on server is 797x797 (_for images from YouTube_)
+Highest quality saved on server is 797x797 for profile pictures from YouTube
 
 ## Default parameters (_set in all profile images and various others_)
 
