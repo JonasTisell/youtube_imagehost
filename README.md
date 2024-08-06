@@ -52,4 +52,4 @@ ft - Unknown
 
 t - Starting parameter with -t allows you to write anything after it without it breaking (_e.g. "-tHELLO" won't break it_)
 
-l - compression level, proceeded by an integer (e.g. l0 results in a heavily compressed image) [found in Youtube Music]
+l - compression level, proceeded by an integer (e.g. l0 results in a heavily compressed image) - default is around "l82", thus making "l100" higher quality than default [found in Youtube Music]
