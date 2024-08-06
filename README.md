@@ -36,9 +36,9 @@ fcrop64 - Doesn't do anything on profile pictures, but setting it to 2 shows an 
 
 d - Autodownloads image (_Credit to [Codesiderations](http://www.codesiderations.com/2017/02/09/blogger-amp-proxy.html)_)
 
-p - Does almost the same thing as c, but different positioning
+p - Crops the image to the width and height, instead of resizing to the smallest value. If only width or height is set alone, it malfunctions.
 
-a / mm - Shows the old default profile-picture (blue square with a star inside) - Always shows if parameter starts with mm (can have anything behind)
+a / mm - Shows the old default profile-picture (_blue square with a star inside_) - Always shows if parameter starts with mm (_can have anything behind_)
 
 h (no int) - Puts img in a html-page
 
@@ -51,3 +51,5 @@ U - Does same as -I, but url is different (_removing U then makes it work_)
 ft - Unknown
 
 t - Starting parameter with -t allows you to write anything after it without it breaking (_e.g. "-tHELLO" won't break it_)
+
+l - compression level, proceeded by an integer (e.g. l0 results in a heavily compressed image) [found in Youtube Music]
