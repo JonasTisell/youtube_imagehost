@@ -32,17 +32,13 @@ mo - Unknown
 
 g - Shows the XML used to render the profile picture (_TileInfo_) - also ignores other parameters
 
-fcrop64 - Doesn't do anything on profile pictures, but setting it to 2 shows an alert-sign (_from banner-parameters_)
+fcrop64 - Doesn't do anything on profile pictures, but setting it to 2 throws an error (used to show an alert-sign)  [_from banner-parameters_]
 
 d - Autodownloads image (_Credit to [Codesiderations](http://www.codesiderations.com/2017/02/09/blogger-amp-proxy.html)_)
 
 p - Crops the image to the width and height, instead of resizing to the smallest value. If only width or height is set alone, it malfunctions.
 
-a / mm - Shows the old default profile-picture (_blue square with a star inside_) - Always shows if parameter starts with mm (_can have anything behind_)
-
 h (no int) - Puts img in a html-page
-
-cc - Makes image circular (doesn't work if c is set)
 
 I - Redirects url to googleusercontent.com - once redirected it shows client doesn't have permission. (_removing I then makes it work_)
 
@@ -53,3 +49,9 @@ ft - Unknown
 t - Starting parameter with -t allows you to write anything after it without it breaking (_e.g. "-tHELLO" won't break it_)
 
 l - compression level, proceeded by an integer (e.g. l0 results in a heavily compressed image) - default is around "l82", thus making "l100" higher quality than default [found in Youtube Music]
+
+## Retired parameters (_no longer works_)
+
+a / mm - Shows the old default profile-picture (_blue square with a star inside_) - Always shows if parameter starts with mm (_can have anything behind_)
+
+cc - Makes image circular (doesn't work if c is set)
