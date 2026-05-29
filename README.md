@@ -22,7 +22,7 @@ no - Stops GIF from moving (_needs "rj"_)
 
 rj - makes image JPG (_when not set, image gets changed to the original filetype_)
 
-c - makes image same width and height, also makes width 2 pixels smaller sometimes, for some reason (_sometimes also allows image to be larger than 797x797 pixels_)
+c - while neither w and h is not set, or only one of them are set, it crops to 1:1 aspect ratio (square). If both w and h is set, it crops to the desired width/height.
 
 c0xffffffff - Unknown
 
