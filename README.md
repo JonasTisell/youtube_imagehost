@@ -1,6 +1,8 @@
 # YouTube Image Host URL Parameter Documentation
 ###### These are also usable in Picasa, Blogger and Google+ image links, as they all use the Google Image Host
-###### Mostly accurate as of March 2023
+###### Mostly accurate as of June 2026
+
+These parameters are separated by dashes, after the equals sign at the end of the URL.
 
 ## Rules
 
@@ -24,7 +26,7 @@ rj - makes image JPG (_when not set, image gets changed to the original filetype
 
 c - while neither w and h is not set, or only one of them are set, it crops to 1:1 aspect ratio (square). If both w and h is set, it crops to the desired width/height.
 
-c0xffffffff - Unknown
+c0x - Sets background color, especially useful if used with _cc_. (e.g _c0xff0000_ gives you a red background color)
 
 mo - Unknown
 
@@ -32,7 +34,7 @@ mo - Unknown
 
 cc - Makes image circular (doesn't work if c is set)
 
-d - Autodownloads image (_Credit to [Codesiderations](http://www.codesiderations.com/2017/02/09/blogger-amp-proxy.html)_)
+d - Autodownloads the original image, ignores all other params (_Credit to [Codesiderations](http://www.codesiderations.com/2017/02/09/blogger-amp-proxy.html)_)
 
 fcrop64 - crops the image. Setting it to 2 throws an error (used to show an alert-sign)  [_from banner parameters_]
 
@@ -46,7 +48,7 @@ I - Redirects url to googleusercontent.com - once redirected it shows client doe
 
 l - compression level, proceeded by an integer (e.g. l0 results in a heavily compressed image) - default is around "l82", thus making "l100" higher quality than default [found in Youtube Music]
 
-p - Crops the image to the width and height, instead of resizing to the smallest value. If only width or height is set alone, it malfunctions.
+p - Crops the image to the width and height, instead of resizing to the smallest value. If only width or height is set alone, it malfunctions. Without width and height set, it crops to a square slightly left of center. Ignores _cc_ 
 
 t - Starting parameter with -t allows you to write anything after it without it breaking (_e.g. "-tHELLO" won't break it_)
 
